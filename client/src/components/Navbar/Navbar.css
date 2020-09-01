@@ -1,1 +1,17 @@
 /* placeholder */
+.wrapper {
+    background-color: rgb(173, 173, 173);
+    height: 7vw;
+    width: 100%
+}
+
+.inner {
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid /* this is just for positioning*/
+    /* align-content: left; */
+}
+
+.logo-and-left {
+
+}
