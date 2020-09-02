@@ -4,13 +4,17 @@
   margin: 0px;
 }
 
+.col-lg-6{
+  padding: 0px;
+}
+
 .hero-title{
   text-align: center;
   color: white;
   background: royalblue;
   height: 50vh;
   width: 100%;
-  padding: 0px;
+  padding: 10%;
 }
 
 .hero-image{
@@ -19,6 +23,26 @@
   padding: 0px;
 }
 
-.col-lg-6{
-  padding: 0px;
+.welcome-div{
+  height: 15vh;
+  text-align: center;
+  background: lightgray;
+}
+
+.about-divider{
+  height: 10vh;
+  background: darkgray;
+}
+
+.about{
+  height: 100vh;
+}
+
+#about-heading{
+  text-align: center;
+  padding: 25%;
+}
+
+.about-paragraph{
+  padding: 3%;
 }
