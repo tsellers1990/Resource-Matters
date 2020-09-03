@@ -4,6 +4,7 @@ import Navbar from "./Navbar/Navbar";
 import Hero from './Hero';
 import WelcomeEmail from './WelcomeEmail';
 import About from './About';
+import Footer from './Footer';
 
 const Main = ()=>{
   return (
@@ -12,6 +13,7 @@ const Main = ()=>{
       <Hero />
       <WelcomeEmail />
       <About />
+      <Footer />
     </div>
   );
 }
