@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/resourcematters", {useNewUrlParser: true}, function(err){
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/resourceMatters", {useNewUrlParser: true}, function(err){
   if (err) throw err;
   console.log("mongoose connection successful");
 });

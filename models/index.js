@@ -1,3 +1,3 @@
 module.exports = {
-  Patron: require("./patronModel")
+  Patron: require("./PatronModel")
 };

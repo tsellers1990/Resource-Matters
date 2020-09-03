@@ -1,10 +1,10 @@
 const router = require("express").Router();
 const db = require('../../models')
 
-router.post("/add", ({body}, res)=>{
-  db.Patron.create(body)
+router.post("/add", (req, res)=>{
+  db.Patron.create(req.body)
     .then(data=> res.json(data))
-    .catch(err=> console.log(err))
+    .catch(err=> console.log("what the fuck"))
 })
 
 module.exports = router;
