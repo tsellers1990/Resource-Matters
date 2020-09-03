@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const PatronInfo = ()=>{
@@ -45,7 +46,9 @@ const PatronInfo = ()=>{
         <input name= "address" name= "address" value= {contactInfo.address} onChange= {handleInputChange} placeholder= "Address" />
         <br />
         <br />
-        <button onClick= {()=> submitPatronInfo()}>Submit information</button>
+        <Link to= "/" >
+          <button onClick= {()=> submitPatronInfo()}>Submit information</button>
+        </Link>
       </div>
     </div>
   )
