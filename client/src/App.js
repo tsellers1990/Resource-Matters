@@ -1,9 +1,19 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Main from './components/Main'
+import PatronInfo from './components/patronInfo/PatronInfo';
+
 
 function App() {
   return (
-    <Main />
+    <Router>
+      <Route exact path= "/">
+        <Main />
+      </Route>
+      <Route path= "/patronInfo/:email">
+        <PatronInfo />
+      </Route>
+    </Router>
   );
 }
 
