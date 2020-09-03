@@ -7,6 +7,7 @@ const PatronInfo = ({ email })=>{
     email: email,
     firstName: "",
     lastName: "",
+    occupation: "",
     phoneNumber: "",
     address: ""
   })
@@ -22,6 +23,7 @@ const PatronInfo = ({ email })=>{
       email: contactInfo.email,
       firstName: contactInfo.firstName,
       lastName: contactInfo.lastName,
+      occupation: contactInfo.occupation,
       phoneNumber: contactInfo.phoneNumber,
       address: contactInfo.address
     })
@@ -33,15 +35,19 @@ const PatronInfo = ({ email })=>{
       <h5>Please enter your contact information here to stay informed</h5>
       <div>
         <p>Email:</p>
-        <input name= "email" name= "email" value= {contactInfo.email} onChange= {handleInputChange} placeholder= "Email" />
+        <input name= "email" value= {contactInfo.email} onChange= {handleInputChange} placeholder= "Email" />
         <br />
         <br />
         <p>First Name: </p>
-        <input name= "firstName" name= "firstName" value= {contactInfo.firstName} onChange= {handleInputChange} placeholder= "First Name" />
+        <input name= "firstName" value= {contactInfo.firstName} onChange= {handleInputChange} placeholder= "First Name" />
         <br />
         <br />
         <p>Last Name: </p>
-        <input name= "lastName" name= "lastName" value= {contactInfo.lastName} onChange= {handleInputChange} placeholder= "Last Name" />
+        <input name= "lastName" value= {contactInfo.lastName} onChange= {handleInputChange} placeholder= "Last Name" />
+        <br />
+        <br />
+        <p>Occupation: </p>
+        <input name= "occupation" value= {contactInfo.occupation} onChange= {handleInputChange} placeholder= "Occupation" />
         <br />
         <br />
         <p>Phone Number: </p>
