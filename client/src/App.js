@@ -10,7 +10,7 @@ function App() {
       <Route exact path= "/">
         <Main />
       </Route>
-      <Route path= "/patronInfo/:email">
+      <Route path= "/patronInfo/signup">
         <PatronInfo />
       </Route>
     </Router>

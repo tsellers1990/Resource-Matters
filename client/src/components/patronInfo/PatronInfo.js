@@ -2,8 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const PatronInfo = ()=>{
-  const [contactInfo, setContactInfo] = useState({})
+const PatronInfo = ({ email })=>{
+  const [contactInfo, setContactInfo] = useState({
+    email: email,
+    firstName: "",
+    lastName: "",
+    phoneNumber: "",
+    address: ""
+  })
 
   const handleInputChange = (e) => {
     let nam = e.target.name
