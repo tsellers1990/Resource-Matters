@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 const Main = ()=>{
   return (
-    <div className="container col-lg-12">
+    <div className="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <Navbar />
       <Hero />
       <WelcomeEmail />
