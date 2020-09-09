@@ -4,6 +4,7 @@ import Navbar from "./Navbar/Navbar";
 import Hero from './Hero';
 import WelcomeEmail from './WelcomeEmail';
 import About from './About';
+import Videos from './Videos';
 import Footer from './Footer';
 
 const Main = ()=>{
@@ -13,6 +14,7 @@ const Main = ()=>{
       <Hero />
       <WelcomeEmail />
       <About />
+      <Videos />
       <Footer />
     </div>
   );
