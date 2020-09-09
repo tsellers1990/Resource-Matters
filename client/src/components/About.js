@@ -3,12 +3,12 @@ import React from 'react';
 const About = ()=>{
   return(
     <>
-    <div className= "row about-divider"></div>
+    <div className= "row about-divider" />
     <div className= "row about">
-      <div className= "col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+      <div className= "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h2 id= "about-heading">About Resource Matters</h2>
       </div>
-      <div className= "col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 about-paragraph">
+      <div className= "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 about-paragraph">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sit amet nisl suscipit adipiscing. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Et netus et malesuada fames ac turpis. In fermentum posuere urna nec tincidunt. Massa massa ultricies mi quis hendrerit dolor. Fames ac turpis egestas integer eget aliquet nibh. Enim nec dui nunc mattis enim ut tellus elementum. Posuere morbi leo urna molestie at elementum eu facilisis sed. Ornare aenean euismod elementum nisi. Morbi tempus iaculis urna id volutpat. Scelerisque varius morbi enim nunc faucibus a pellentesque. Amet dictum sit amet justo. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor.
         <br />
         <br />
