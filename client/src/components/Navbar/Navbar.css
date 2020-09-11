@@ -8,10 +8,9 @@
 .inner {
     width: fit-content;
     margin: 0 auto;
-    border: 1px solid /* this is just for positioning, remove for production push*/
-    /* align-content: left; */
+    border: 1px solid; /* this is just for positioning, remove for production push
+    align-content: left; */
+    text-align: center;
 }
 
-.logo-and-left {
 
-}

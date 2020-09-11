@@ -14,7 +14,6 @@ const Main = ()=>{
       <Hero />
       <WelcomeEmail />
       <About />
-      <Videos />
       <Footer />
     </div>
   );

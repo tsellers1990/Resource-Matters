@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 
 const Videos = ()=>{
   return(
     <>
+    <Navbar />
     <h4>Videos Section:</h4>
     <br />
     <div className= "row">
