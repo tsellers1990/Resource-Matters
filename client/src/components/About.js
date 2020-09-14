@@ -3,7 +3,11 @@ import React from 'react';
 const About = ()=>{
   return(
     <>
-    <div className= "row about-divider" />
+    <div className= "row about-divider">
+      <div className= "divider-alt-color">
+        <h3 id= "divider-text">About us</h3>
+      </div>
+    </div>
     <div className= "row about">
       <div className= "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h2 id= "about-heading">About Justice For All</h2>

@@ -34,6 +34,18 @@
   background: darkgray;
 }
 
+.divider-alt-color {
+  z-index: 2;
+  background-color: darkorange;
+  width: 30%;
+}
+
+#divider-text {
+  color: white;
+  float: right;
+  margin-right: 4%;
+}
+
 #about-heading{
   text-align: center;
   padding: 25%;
