@@ -18,7 +18,16 @@ a {
 }
 
 .nav-btns {
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  list-style: none;
+  font-size: 2em;
 }
 
-
+nav-btn {
+  font-weight: 600;
+  text-transform: uppercase;
+}
