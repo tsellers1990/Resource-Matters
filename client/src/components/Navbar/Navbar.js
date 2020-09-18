@@ -1,23 +1,29 @@
-import React from "react";
-import "./Navbar.css";
-import PlaceHolder from'../../Images/placeholder.png'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import './Navbar.css'
 
 export const Navbar = () => {
-  return (
-    <div className="wrapper">
-      <div className="inner">
-        <div className="left">
-            <img src={PlaceHolder} className="logo"/>
-            {/*^^^ make a png of the logo with the text so that we dont have to worry about positioning text too */}
-          {/* <p>This is the Left, logo and stuff here</p> */}
+    return (
+      <>
+        <div className='wrapper'>
+            <div className='inner row'>
+                  <h1 className='logo-and-left col align-self-center '>This is the Navbar</h1>
+            </div>
         </div>
-        <div className="center">
-          <p>This is the Center</p>
-        </div>
-        <div className="right">
-          <p>This is the Right</p>
-        </div>
-      </div>
-    </div>
-  );
-};
+        <ul className= "nav-btns">
+          <li>
+            <Link to= "/">
+              <h4 className= "nav-btn">Home</h4>
+            </Link>
+          </li>
+          <li>
+            <Link to= "/videos">
+              <h4 className= "nav-btn">Videos</h4>
+            </Link>
+          </li>
+        </ul>
+      </>
+    )
+}
+
+export default Navbar;

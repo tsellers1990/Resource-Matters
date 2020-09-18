@@ -1,0 +1,64 @@
+.container{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col-lg-6{
+  padding: 0px;
+}
+
+.hero-title{
+  text-align: center;
+  color: white;
+  background: royalblue;
+  height: 50vh;
+  width: 100%;
+  padding: 10%;
+}
+
+.hero-image{
+  width: 100%;
+  height: 50vh;
+  padding: 0px;
+}
+
+.welcome-div{
+  padding: 5vh;;
+  text-align: center;
+  background: lightgray;
+}
+
+.about-divider{
+  height: 5vh;
+  background: darkgray;
+}
+
+.divider-alt-color {
+  z-index: 2;
+  background-color: darkorange;
+  width: 30%;
+}
+
+#divider-text {
+  color: white;
+  float: right;
+  margin-right: 4%;
+}
+
+#about-heading{
+  text-align: center;
+  padding: 25%;
+}
+
+.about-paragraph{
+  padding: 3%;
+}
+
+.footer{
+  height: 10vh;
+  color: white;
+  padding-top: 3vh;
+  text-align: center;
+  background: black;
+}
