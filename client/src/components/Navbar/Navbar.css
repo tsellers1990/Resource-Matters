@@ -1,35 +1,31 @@
 .wrapper {
+  position: relative;
   background-color: rgb(173, 173, 173);
   height: 7vw;
-  width: 100%;
+  width: 100;
 }
 
 .inner {
   width: fit-content;
+  position: relative;
   margin: 0 auto;
-  border: 1px solid; /* this is just for positioning, remove for production push
-    align-content: left; */
   text-align: center;
 }
 
-a {
-  color: blue;
+.header-text {
+  position: relative;
+  margin-top: 1;
+  width: 100;
 }
 
 .nav-btns {
   position: relative;
-  /* margin: 0, auto; */
-  /* text-align: center; */
   list-style: none;
   font-size: 2em;
-  margin-top: -6%;
+  margin-top: -3%;
+  width: fit-content;
 }
 
-home-btn {
-  margin-left: 75px;
-}
-
-video-btn {
-  position: relative;
-  margin-left: 75px;
+a {
+  color: blue;
 }
