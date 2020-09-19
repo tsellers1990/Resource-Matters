@@ -11,14 +11,14 @@ export const Navbar = () => {
             </div>
         </div>
         <ul className= "nav-btns">
-          <li>
+          <li className= "home-btn">
             <Link to= "/">
-              <h4 className= "nav-btn">Home</h4>
+              <h4>Home</h4>
             </Link>
           </li>
           <li>
             <Link to= "/videos">
-              <h4 className= "nav-btn">Videos</h4>
+              <h4 className= "video-btn">Videos</h4>
             </Link>
           </li>
         </ul>

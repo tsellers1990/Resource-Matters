@@ -1,15 +1,15 @@
 .wrapper {
-    background-color: rgb(173, 173, 173);
-    height: 7vw;
-    width: 100%
+  background-color: rgb(173, 173, 173);
+  height: 7vw;
+  width: 100%;
 }
 
 .inner {
-    width: fit-content;
-    margin: 0 auto;
-    border: 1px solid; /* this is just for positioning, remove for production push
+  width: fit-content;
+  margin: 0 auto;
+  border: 1px solid; /* this is just for positioning, remove for production push
     align-content: left; */
-    text-align: center;
+  text-align: center;
 }
 
 a {
@@ -17,16 +17,19 @@ a {
 }
 
 .nav-btns {
-  margin: 0, auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  position: relative;
+  /* margin: 0, auto; */
+  /* text-align: center; */
   list-style: none;
   font-size: 2em;
+  margin-top: -6%;
 }
 
-nav-btn {
-  font-weight: 600;
-  text-transform: uppercase;
+home-btn {
+  margin-left: 75px;
+}
+
+video-btn {
+  position: relative;
+  margin-left: 75px;
 }
