@@ -10,7 +10,7 @@ export const Navbar = () => {
           <h1 className="header-text">
             Justice For All
           </h1>
-          {/* image tag here... maybe look into putting it all together as an image */}
+          {/* image tag here... We'll create the logo and words all as one to make it easier*/}
         </div>
 
         <ul className="nav-btns">
