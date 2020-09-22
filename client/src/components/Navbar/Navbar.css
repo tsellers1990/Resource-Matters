@@ -2,7 +2,7 @@
   position: relative;
   background-color: rgb(173, 173, 173);
   height: 175px;
-  width: 100;
+  width: 100vw;
   margin-bottom: 0px
 }
 
@@ -28,7 +28,7 @@
 }
 
 .nav-btns {
-  position: relative;
+  position: absolute;
   list-style: none;
   font-size: 2em;
   margin-top: -10%;
