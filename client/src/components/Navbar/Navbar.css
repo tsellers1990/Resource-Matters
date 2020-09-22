@@ -28,11 +28,14 @@
 }
 
 .nav-btns {
-  position: absolute;
+  position: relative;
   list-style: none;
   font-size: 2em;
-  margin-top: -10%;
   width: fit-content;
+  margin: 0 auto;
+  margin-top: -20vh;
+  margin-right: 5%
+  /* align-items: left; */
 }
 
 a {
