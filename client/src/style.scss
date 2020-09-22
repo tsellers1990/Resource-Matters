@@ -1,11 +1,7 @@
 .container{
-  width: 100%;
+  width: calc(100vw - (100vw - 100%));
   padding: 0px;
   margin: 0px;
-}
-
-.col-lg-6{
-  padding: 0px;
 }
 
 .hero-title{
