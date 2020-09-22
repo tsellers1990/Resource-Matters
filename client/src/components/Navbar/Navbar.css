@@ -1,14 +1,23 @@
 .wrapper {
   position: relative;
   background-color: rgb(173, 173, 173);
-  height: 7vw;
+  height: 175px;
   width: 100;
+  margin-bottom: 0px
 }
 
 .inner {
+
+}
+
+.logo {
   width: fit-content;
+  /* margin-top: 50%;
+  margin-bottom: 50%; */
   position: relative;
   margin: 0 auto;
+  margin-top: -1%;
+  margin-bottom: 1.5%;
   text-align: center;
 }
 
@@ -22,7 +31,7 @@
   position: relative;
   list-style: none;
   font-size: 2em;
-  margin-top: -3%;
+  margin-top: -10%;
   width: fit-content;
 }
 
