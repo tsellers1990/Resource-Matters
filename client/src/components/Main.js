@@ -1,7 +1,7 @@
 import React from "react";
 import '../style.scss';
 import Navbar from "./Navbar/Navbar";
-import Hero from './Hero';
+import Hero from './Hero/Hero';
 import WelcomeEmail from './WelcomeEmail';
 import About from './About';
 import Videos from './Videos';

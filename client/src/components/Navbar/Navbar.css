@@ -41,3 +41,7 @@
 a {
   color: blue;
 }
+
+/* .wrapper {
+  width: calc(100vw - (100vw - 100%));
+} */
